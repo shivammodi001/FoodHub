@@ -23,7 +23,7 @@ import TrackOrderPage from './pages/TrackOrderPage.jsx'
 import Shop from './pages/Shop.jsx'
 import {io} from "socket.io-client";
 import { setSocket } from './redux/userSlice.js'
-export const serverUrl = "http://localhost:8000"
+export const serverUrl = "https://foodhub-backend-9gph.onrender.com"
 
 function App() {
   const dispatch = useDispatch();
