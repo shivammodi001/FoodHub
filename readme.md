@@ -34,6 +34,9 @@ step 3: User will reset password using the otp
 
 ```
 
+#for storing images
+ npm i multer cloudinary
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # 🎨 FoodHub Frontend (React + Vite + TailwindCSS)
@@ -77,3 +80,6 @@ npm install firebase
 # Redux for centralize store
 npm install @reduxjs/toolkit
 npm install react-redux
+#this for showing map
+npm i leaflet
+ npm i react-leaflet

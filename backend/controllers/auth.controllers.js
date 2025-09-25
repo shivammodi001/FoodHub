@@ -3,7 +3,7 @@ const User = require("../models/user.model");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const genToken = require("../utils/token");
-const sendOtpMail = require("../utils/mail");
+const {sendOtpMail} = require("../utils/mail");
 // const authMiddleware = require('../middlewares/auth.middleware');
 
 // Sign Up

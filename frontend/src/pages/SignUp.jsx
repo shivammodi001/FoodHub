@@ -49,8 +49,7 @@ function SignUp() {
       // console.log("Signup success:", result.data);
       setError("");
       setLoading(false);
-      alert("Signup successful! Please sign in.");
-      navigate("/signin");
+      alert("Signup successful!");
     } catch (err) {
       console.error("Signup error:", err.response?.data || err.message);
       setError(err.response?.data?.message || "Signup failed");
