@@ -19,7 +19,7 @@ app.use(cookieParser());
 
 const io = new Server(server,{
   cors:{
-    origin: "http://localhost:5173",
+    origin: "https://foodhub-frontend-yl92.onrender.com",
     credentials: true,
     methods:['POST','GET']
   }
@@ -29,7 +29,7 @@ app.set("io",io);
 
 // this is for accepting cookies from frontend
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://foodhub-frontend-yl92.onrender.com",
     credentials: true,
 }));
 
